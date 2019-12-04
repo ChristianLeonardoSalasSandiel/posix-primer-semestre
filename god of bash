@@ -1,0 +1,655 @@
+
+echo "para una mejor experiencia copia y pega el siguiente link en el navegador de tu preferencia:"
+
+
+
+echo "https://youtu.be/rOmHpI0MMKE"
+
+
+
+
+echo -e "#   ▄▀▀▀▀▄    ▄▀▀▀▀▄   ▄▀▀█▄▄       ▄▀▀▀▀▄   ▄▀▀▀█▄        ▄▀▀█▄▄   ▄▀▀█▄   ▄▀▀▀▀▄  ▄▀▀▄ ▄▄  "
+echo -e "#  █         █      █ █ ▄▀   █     █      █ █  ▄▀  ▀▄     ▐ ▄▀   █ ▐ ▄▀ ▀▄ █ █   ▐ █  █   ▄▀ "
+echo -e "#  █    ▀▄▄  █      █ ▐ █    █     █      █ ▐ █▄▄▄▄         █▄▄▄▀    █▄▄▄█    ▀▄   ▐  █▄▄▄█  "
+echo -e "#  █     █ █ ▀▄    ▄▀   █    █     ▀▄    ▄▀  █    ▐         █   █   ▄▀   █ ▀▄   █     █   █  "
+echo -e "#  ▐▀▄▄▄▄▀ ▐   ▀▀▀▀    ▄▀▄▄▄▄▀       ▀▀▀▀    █             ▄▀▄▄▄▀  █   ▄▀   █▀▀▀     ▄▀  ▄▀  "
+echo -e "#  ▐                  █     ▐               █             █    ▐   ▐   ▐    ▐       █   █    "
+echo -e "#                     ▐                     ▐             ▐                         ▐   ▐    "
+
+echo -e "       "
+echo -e "                                %       ,/&(%,                           "
+echo -e "                             &( % (,&&&(&&&*&&&&%&(*.                    "
+echo -e "                          .&&&&&&&&&&&&,&*&%&&&&&&&&&&&                   "
+echo -e "                        &&&&&&&&&&&&&&&*&&&&&&&&&&&&&&&&&&.                "
+echo -e "                      &%&&&&&&&&&&&*             &&&&&&&&&&&(               "
+echo -e "                    /&&%&/&&&&&/                    (&/ &&&                  "
+echo -e "               .,  (&&&&&&&*&                         /&&&&&&&%               "
+echo -e "                &,/&&&&&&&.                             (&&&&&&.               "
+echo -e "               .&.#&&&&&&                                /&&&&&&%              "
+echo -e "               #&&&&&&&&                                  ,&&&&&&              "
+echo -e "               &&&&&&&&                                    &&&&&&&             "
+echo -e "               &,&&&&./                                    &&&&&&&*            "
+echo -e "               &&&%.&&%                                   ,*((&%%*.            "
+echo -e "               &(&&&&&,                                   (&(&&&&&&            "
+echo -e "               /&&&&&&&                                  *&&&&&&&(             "
+echo -e "                (&&&&&&&                                 &&&&&&&               "
+echo -e "                 &&&&&&&&                               &&&&&&&&               "
+echo -e "                 ((&&&&&&&                             &&&&&&&&                "
+echo -e "                   &&&&&&&&&                         (&&&&&&&&                 "
+echo -e "                    &&&&&&&,&&.                    &&.&&&%&                  "
+echo -e "                    %&&&(/,&&&&&&,              &&&&&&.%&,/                   "
+echo -e "                      .&&&&&&&&&&&&&%#  ,   #%&&&&&&&&&&                       "
+echo -e "                        #  &&&&&&&&&&&&&% & &&&&&&&&&%   /#. .                 "
+echo -e "                .      %##%/&%&&&&&&&&&*&&%*&&&&&&&&&&&&&&&&    .*&&&&&        "
+echo -e "         /,.%&&&.&&,%&&&&&&&&&&&&&&&&&&&&&&*&&&&&&&&&&&&&&&&&&&&/              "
+echo -e "                 *  ((& *&&&&&%&&(#/   %.   #%&&%/&&&&&&&&&&&&&&&&      "
+
+
+
+echo -e "#  ╔═╗╔═╗╔╦╗  ╔═╗╔═╗  ╔╗ ╔═╗╔═╗╦ ╦"
+echo -e "#  ║ ╦║ ║ ║║  ║ ║╠╣   ╠╩╗╠═╣╚═╗╠═╣"
+echo -e "#  ╚═╝╚═╝═╩╝  ╚═╝╚    ╚═╝╩ ╩╚═╝╩ ╩"
+
+
+echo "Bienvenido, en este juego se te harán una serie de preguntas con cuatro posibles opciones con cada respuesta que aciertes ganarás 10 puntos, si llegas a 250 felicidades, śabes lo basico para navegar en bash, por cada respuesta erronea pierdes 5 puntos para lo cual debes llevar la cuenta (una disculpa, soy programador novato) ."
+
+echo "comencemos con comandos basicos:"
+
+
+while true
+do
+
+ echo -e "\n1) verificar o actualizar la fecha de un archivo"
+
+
+        echo -e "\nA) file"
+        echo -e "\nB) who"
+        echo -e "\nC) date"
+        echo -e "\nD) cp"
+        echo -e "\nDigite su respuesta: "
+
+        read respuesta
+        if [ $respuesta = "c" ]
+        then
+
+
+                echo -e "\nrespuesta correcta, ganas 10 puntos"
+                break
+        else
+                echo -e "\nResouesta erronea, pierdes 5 puntos"
+
+        fi
+done
+
+
+while true
+do
+
+echo -e "\n2) comando para cambiar de carpeta"
+
+echo -e "\nA) cmp"
+echo -e "\nB)style"
+echo -e "\nC)yum"
+echo -e "\nD)cd"
+
+read respuesta
+        if [ $respuesta = "d" ]
+        then
+
+
+                echo -e "\nrespuesta correcta, ganas 10 puntos"
+
+                break
+        else
+                echo -e "\nRespuesta erronea, pierdes 5 puntos"
+        fi
+done
+
+while true
+do
+
+echo -e "\n3) sirve para crear un archivo con sufijo .txt"
+
+echo -e "\nA)zip"
+echo -e "\nB)nano"
+echo -e "\nC)do"
+echo -e "\nD)touch"
+
+read respuesta
+        if [ $respuesta = "d" ]
+        then
+
+
+                echo -e "\nrespuesta correcta, ganas 10 puntos"
+
+                break
+        else
+                echo -e "\nRespuesta erronea, pierdes 5 puntos"
+        fi
+done
+
+while true
+do
+
+echo -e "\n4) despeja el area de comandos"
+
+
+echo -e "\nA)if"
+echo -e "\nB)clear"
+echo -e "\nC)tail"
+echo -e "\nD)fg"
+
+read respuesta
+        if [ $respuesta = "b" ]
+        then
+
+
+                echo -e "\nrespuesta correcta, ganas 10 puntos"
+
+                break
+        else
+                echo -e "\nRespuesta erronea, pierdes 5 puntos"
+        fi
+done
+
+while true
+do
+
+echo -e " \n5) copia archivos/carpetas"
+
+echo -e "\nA)cp"
+echo -e "\nB)echo"
+echo -e "\nC)sleep"
+echo -e "\nD)nano"
+
+              read respuesta
+                if [ $respuesta = "a" ]
+                then
+
+                echo -e "\nrespuesta correcta, ganas 10 puntos"
+
+                break
+        else
+                echo -e "\nRespuesta erronea, pierdes 5 puntos"
+        fi
+done
+
+while true
+do
+
+echo -e "\n 6) comando utilizado para mostrar en forma de arbol"
+
+echo -e "\nA)bash"
+echo -e "\nB)sed"
+echo -e "\nC)tar"
+echo -e "\nD)tree"
+
+read respuesta
+        if [ $respuesta = "d" ]
+        then
+
+
+                echo -e "\nrespuesta correcta, ganas 10 puntos"
+
+                break
+        else
+                echo -e "\nRespuesta erronea, pierdes 5 puntos"
+        fi
+done
+
+while true
+do
+
+echo -e "\n 7) cambia de usuario"
+echo -e "\nA)fg"
+echo -e "\nB)cmatrix"
+echo -e "\nC)netcat"
+echo -e "\nd)su"
+
+read respuesta
+        if [ $respuesta = "d" ]
+        then
+
+
+                echo -e "\nrespuesta correcta, ganas 10 puntos"
+
+                break
+        else
+                echo -e "\nRespuesta erronea, pierdes 5 puntos"
+        fi
+done
+
+while true
+do
+
+echo -e "\n 8) matar proceso"
+
+echo -e "\nA)done"
+echo -e "\nB)gunzip"
+echo -e "\nC)kill"
+echo -e "\nd)killall"
+
+read respuesta
+        if [ $respuesta = "c" ]
+        then
+
+
+                echo -e "\nrespuesta correcta, ganas 10 puntos"
+
+                break
+        else
+                echo -e "\nRespuesta erronea, pierdes 5 puntos"
+        fi
+done
+
+while true
+do
+
+echo -e "\n9) comprobar integridad de archivos "
+
+echo -e "\nA)tar"
+echo -e "\nB)md5sum"
+echo -e "\nC)init"
+echo -e "\nD)rpt"
+
+read respuesta
+        if [ $respuesta = "b" ]
+        then
+
+
+                echo -e "\nrespuesta correcta, ganas 10 puntos"
+
+                break
+        else
+                echo -e "\nRespuesta erronea, pierdes 5 puntos"
+        fi
+done
+
+while true
+do
+
+echo -e "\n10) ayuda  "
+
+echo -e "\nA)cat"
+echo -e "\nB)bash"
+echo -e "\nC)sos"
+echo -e "\nd)help"
+
+read respuesta
+        if [ $respuesta = "d" ]
+        then
+
+
+                echo -e "\nrespuesta correcta, ganas 10 puntos"
+
+                break
+        else
+                echo -e "\nRespuesta erronea, pierdes 5 puntos"
+        fi
+done
+
+while true
+do
+
+echo -e "\n 11) crear un ususario  "
+
+echo -e "\nA)adduser"
+echo -e "\nB)rmuser"
+echo -e "\nC)addgroup"
+echo -e "\nd)useradd"
+
+read respuesta
+        if [ $respuesta = "d" ]
+        then
+                echo -e "\nrespuesta correcta, ganas 10 puntos"
+
+                break
+        else
+                echo -e "\nRespuesta erronea, pierdes 5 puntos"
+        fi
+done
+
+while true
+do
+
+echo -e " \n12) ultimas 10 lineas de codigo  "
+
+echo -e "\nA)tail"
+echo -e "\nB)cmp"
+echo -e "\nC)rpm"
+echo -e "\nd)wc"
+
+read respuesta
+        if [ $respuesta = "a" ]
+        then
+
+
+                echo -e " \nrespuesta correcta, ganas 10 puntos"
+
+                break
+        else
+                echo -e "\nRespuesta erronea, pierdes 5 puntos"
+        fi
+done
+
+while true
+do
+
+echo -e "\n 13) conseguir comandos  "
+
+echo -e "\nA)chmod"
+echo -e "\nB)pwd"
+echo -e "\nC)apt-get"
+echo -e "\nD)ls"
+
+read respuesta
+        if [ $respuesta = "c" ]
+        then
+
+
+                echo -e "\nrespuesta correcta, ganas 10 puntos"
+
+                break
+        else
+                echo -e "\nRespuesta erronea, pierdes 5 puntos"
+        fi
+done
+while true
+do
+
+echo -e "\n 14) revisar o ingresar datos  "
+
+echo -e "\nA)tar"
+echo -e "\nB)zip"
+echo -e "\nC)ping"
+echo -e "\nD)dd"
+
+read respuesta
+        if [ $respuesta = "d" ]
+        then
+
+
+                echo -e "\nrespuesta correcta, ganas 10 puntos"
+
+                break
+        else
+                echo -e "\nRespuesta erronea, pierdes 5 puntos"
+        fi
+done
+
+while true
+do
+
+echo -e "\n 15) presentacion hexadecimal de la entrada  "
+
+echo -e "\nA)hexdump"
+echo -e "\nB)tar"
+echo -e "\nC)zip"
+echo -e "\nD)cowsay"
+
+read respuesta
+        if [ $respuesta = "a" ]
+        then
+
+
+                echo -e "\nrespuesta correcta, ganas 10 puntos"
+
+                break
+        else
+                echo -e "\nRespuesta erronea, pierdes 5 puntos"
+        fi
+done
+
+
+while true
+do
+
+echo -e " 16) mostrar texto en pantalla  "
+
+echo -e "A)while"
+echo -e "B)echo"
+echo -e "C)less"
+echo -e "d)vi"
+
+read respuesta
+        if [ $respuesta = "b" ]
+        then
+
+
+                echo -e "respuesta correcta, ganas 10 puntos"
+
+                break
+        else
+                echo -e "Respuesta erronea, pierdes 5 puntos"
+        fi
+done
+
+
+while true
+do
+
+echo -e " 17) filtra contenido de un fichero  "
+
+echo -e "A)grep"
+echo -e "B)logout"
+echo -e "C)zch"
+echo -e "d)exit"
+
+read respuesta
+        if [ $respuesta = "a" ]
+        then
+
+
+                echo -e "respuesta correcta, ganas 10 puntos"
+
+                break
+        else
+                echo -e "Respuesta erronea, pierdes 5 puntos"
+        fi
+done
+
+while true
+do
+
+echo -e " 18) reiniciar la consola  "
+
+echo -e "A)cowsay"
+echo -e "B)nvaders"
+echo -e "C)reboot"
+echo -e "d)bash"
+
+read respuesta
+        if [ $respuesta = "c" ]
+        then
+
+
+                echo -e "respuesta correcta, ganas 10 puntos"
+
+                break
+        else
+                echo -e "Respuesta erronea, pierdes 5 puntos"
+        fi
+done
+
+
+while true
+do
+
+echo -e " 19) interconexiones de datos  "
+
+echo -e "A)netstat"
+echo -e "B)awk"
+echo -e "C)case"
+echo -e "d)git"
+
+read respuesta
+        if [ $respuesta = "d" ]
+        then
+
+
+                echo -e "respuesta correcta, ganas 10 puntos"
+
+                break
+        else
+                echo -e "Respuesta erronea, pierdes 5 puntos"
+        fi
+done
+
+while true
+do
+
+echo -e " 20) enlazar de forma remota  "
+
+echo -e "A)nlook p"
+echo -e "B)ssh"
+echo -e "C)egrep"
+echo -e "d)cmp"
+
+read respuesta
+        if [ $respuesta = "b" ]
+        then
+
+
+                echo -e "respuesta correcta, ganas 10 puntos"
+
+                break
+        else
+                echo -e "Respuesta erronea, pierdes 5 puntos"
+        fi
+done
+
+while true
+do
+
+echo -e " 21)  arriba y abajo, hacia adentro o afuera, cuando una entrada se cierra una puerta se abre  "
+
+echo -e "A)git"
+echo -e "B)head"
+echo -e "C)screen"
+echo -e "d)yum"
+
+read respuesta
+        if [ $respuesta = "c" ]
+        then
+
+
+                echo -e "respuesta correcta, ganas 10 puntos"
+
+                break
+        else
+                echo -e "Respuesta erronea, pierdes 5 puntos"
+        fi
+done
+
+
+while true
+do
+
+echo -e " 22) freya  "
+echo -e "y loki  "
+echo -e "     los dos son dioses  "
+echo -e "    aesir  "
+
+echo -e "A)urandom"
+echo -e "B)du"
+echo -e "C)file"
+echo -e "d)starty"
+
+read respuesta
+        if [ $respuesta = "c" ]
+        then
+
+
+
+                echo -e "respuesta correcta, ganas 10 puntos"
+
+                break
+        else
+                echo -e "Respuesta erronea, pierdes 5 puntos"
+        fi
+done
+
+
+while true
+do
+
+echo -e " 23) 01101100 01101001 01110011 01110100 01100001 00100000 01100100 01100101 00100000 01110000 01110010 01101001 01101110 01100011 01101001 01110000 01100001 01101100 01100101 01110011 00100000 01110000 01110010 01101111 01100011 01100101 01110011 01101111 01110011 00100000 01100101 00100000 01110101 01110011 01101111 01110011 00100000 01100100 01100101 00100000 01000111 01010000 01010101"
+
+echo -e "A)01110100 01101111 01110000"
+echo -e "B)01110010 01100101 01101110 01100001 01101101 01100101"
+echo -e "C)01101110 01101001 01110100"
+echo -e "D)01110010 01100101 01100001 01100100"
+
+read respuesta
+        if [ $respuesta = "a" ]
+        then
+
+
+                echo -e "respuesta correcta, ganas 10 puntos"
+
+                break
+        else
+                echo -e "Respuesta erronea, pierdes 5 puntos"
+        fi
+done
+
+while true
+do
+
+echo -e " 24) 01100101 01101110 01110110 01101001 01100001 01110010 00100000 01101101 01100101 01101110 01110011 01100001 01101010 01100101 01110011 00100000 01100001 00100000 01110101 01101110 00100000 01110101 01110011 01110101 01100001 01110010 01101001 01101111"
+
+echo -e "A)01110101 01101110 01111010 01101001 01110000"
+echo -e "B)01100101 01100011 01101000 01101111"
+echo -e "C)01110111 01110010 01101001 01110100 01100101"
+echo -e "D)01100101 01110011 01110100 01101111 00100000 01101110 01101001 00100000 01100101 01110011 00100000 01100011 01101111 01101101 01100001 01101110 01100100 01101111"
+
+read respuesta
+        if [ $respuesta = "c" ]
+        then
+
+
+                echo -e "respuesta correcta, ganas 10 puntos"
+
+                break
+        else
+                echo -e "Resouesta erronea, pierdes 5 puntos"
+        fi
+done
+
+
+while true
+do
+
+echo -e " 25) 01100010 01100001 01101110 01101110 01100101 01110010 00100000 01100011 01101111 01101110 00100000 01100110 01101111 01110010 01101101 01100001 00100000 01100100 01100101 00100000 01110110 01100001 01100011 01100001"
+
+echo -e "A)01100001 01101101 01100101 01101110 01101111"
+echo -e "B)01100100 01101111 01110010 01101001 01101101 01100101"
+echo -e "C)01101100 01101111 01100111 01101111 01110101 01110100"
+echo -e "D)01100011 01101111 01110111 01110011 01100001 01111001"
+
+read respuesta
+        if [ $respuesta = "d" ]
+        then
+
+
+                echo -e "respuesta correcta, ganas 10 puntos"
+
+                break
+        else
+                echo -e "Resouesta erronea, pierdes 5 puntos"
+        fi
+done
+
+
+
+echo -e "#  ████████╗██╗  ██╗███████╗    ███████╗███╗   ██╗██████╗ "
+echo -e "#  ╚══██╔══╝██║  ██║██╔════╝    ██╔════╝████╗  ██║██╔══██╗"
+echo -e "#     ██║   ███████║█████╗      █████╗  ██╔██╗ ██║██║  ██║"
+echo -e "#     ██║   ██╔══██║██╔══╝      ██╔══╝  ██║╚██╗██║██║  ██║"
+echo -e "#     ██║   ██║  ██║███████╗    ███████╗██║ ╚████║██████╔╝"
+echo -e "#     ╚═╝   ╚═╝  ╚═╝╚══════╝    ╚══════╝╚═╝  ╚═══╝╚═════╝ "
+echo -e "#                                                         "
+
+
+
+echo -e " Por mi parte son todas las preguntas pero el juego do debe terminar aquí, tu puedes hacer de este un juego infinito."
