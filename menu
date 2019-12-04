@@ -1,0 +1,80 @@
+#!/bin/bash
+Blanco="\033[40m\033[37m" 
+Estandar="\033[0m" 
+Morado="\033[40m\033[35m" 
+echo -e "${Morado}_    _      _                                  _            _                     _                      _       _   ";
+echo -e "| |  | |    | |                                | |          (_)                   (_)                    (_)     | |  ";
+echo -e "| |  | | ___| | ___ ___  _ __ ___   ___        | |_ ___      _ _   _ _ __ __ _ ___ _  ___   ___  ___ _ __ _ _ __ | |_ ";
+echo -e "| |/\| |/ _ \ |/ __/ _ \| '_ \` _ \ / _ \       | __/ _ \    | | | | | '__/ _\` / __| |/ __| / __|/ __| '__| | '_ \| __|";
+echo -e "\  /\  /  __/ | (_| (_) | | | | | |  __/_ _ _  | || (_) |   | | |_| | | | (_| \__ \ | (__  \__ \ (__| |  | | |_) | |_ ";
+echo -e " \/  \/ \___|_|\___\___/|_| |_| |_|\___(_|_|_)  \__\___/    | |\__,_|_|  \__,_|___/_|\___| |___/\___|_|  |_| .__/ \__|";
+echo -e "                                                           _/ |                                            | |        ";
+echo -e "                                                          |__/                                             |_|        ${Estandar}";
+echo "Welcome to jurasic script para empezar introduce un numero del 1 al 19 y el Script vendra a ti";
+echo " 1)aritmeticas"
+echo " 2)arrays"
+echo " 3)arrays alterno"
+echo " 4)case"
+echo " 5)colores"
+echo " 6)comprobacion"
+echo " 7)fr"
+echo " 8)funciones"
+echo " 9)hola mundo"
+echo " 10)hola mundo alterno"
+echo " 11)librerias"
+echo " 12)logicas"
+echo " 13)select "
+echo " 14)señales"
+echo " 15)until"
+echo " 16)variables"
+echo " 17)while"
+echo " 18)condicional"
+echo " 19)sudoku"
+echo " 20)lab1"
+echo " 21)lab2"
+echo " 22)lab3"
+echo " 23)lab4"
+echo " 24)lab5"
+echo " 25)god of bash"
+pause(){
+  read -p "Press [Enter] key to continue..." fackEnterKey
+}
+read_options(){
+        local choice
+        read -p "Enter choice [ 1 - 24 & baygon for exit ] " choice
+        case $choice in
+        1)/home/sony/scripts/aritmeticas.sh;;
+                2)/home/sony/scripts/arrays.sh;;
+                3)/home/sony/scripts/arraysalterno.sh;;
+                4)/home/sony/scripts/cas.sh;;
+                5)/home/sony/scripts/colores.sh;;
+                6)/home/sony/scripts/comprobacion.sh;;
+                7)/home/sony/scripts/fr.sh;;
+                8)/home/sony/scripts/funciones.sh;;
+                9)/home/sony/scripts/holamundo.sh;;
+                10)/home/sony/scripts/holamundoalterno.sh;;
+                11)/home/sony/scripts/librerias.sh;;
+                12)/home/sony/scripts/logicas.sh;;
+                13)/home/sony/scripts/select.sh;;
+                14)/home/sony/scripts/señales.sh;;
+                15)/home/sony/scripts/until.sh;;
+                16)/home/sony/scripts/variables.sh;;
+                17)/home/sony/scripts/while.sh;;
+                18)/home/sony/scripts/condicional.sh;;
+                19)/home/sony/scripts/sudoku.sh;;
+                20)/home/sony/repositorio/lab1.sh;;
+                21)/home/sony/repositorio/lab2.sh;;
+                22)/home/sony/repositorio/lab3.sh;;
+                23)/home/sony/repositorio/lab4.sh;;
+                24)/home/sony/repositorio/lab5.sh;;
+                25)/home/sony/godofbash.sh;;
+
+                "baygon")exit ;;
+                *) echo -e "${RED}Error...${STD}" && sleep 2
+        esac
+}
+while true
+do
+read_options
+done
+                              
